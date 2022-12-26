@@ -1,0 +1,94 @@
+@media screen and (min-width: 751px) and (max-width: 1050px) {
+    .Box{
+  
+        /* align-items: center;
+        position: relative; */
+        /* margin-top: 300px; */
+        border: 3px solid black;
+    }
+    
+    
+    .PlayStoreInfromation h3{
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .PlayStoreInfromation p{
+        font-size: 14px;
+        margin: 20px 0;
+    }
+    .MobileAppImg{
+        width: 80% !important;
+    }
+    .MobileAppView{
+        display: block;
+    }
+}
+
+@media screen and (min-width: 101px) and (max-width: 450px) {
+    .logo{
+        width: 200px;
+        height: 100px;
+    }
+  .item:nth-of-type(2) {
+    position: absolute;
+    order: 1;
+  }
+
+  /* .Box{
+    margin-top: 500px;
+  } */
+  /* .MobileAppView{
+    position: absolute;
+    right: 0px;
+    top: -400px;
+} */
+.PlayStoreInfromation h3{
+    font-size: 18px;
+    font-weight: bold;
+}
+.PlayStoreInfromation p{
+    font-size: 14px;
+    margin: 20px 0;
+}
+.MobileAppImg{
+    width: 80% !important;
+}
+
+  
+}
+
+@media screen and (min-width: 451px) and (max-width: 750px) {
+    .logo{
+        width: 200px;
+        height: 100px;
+    }
+  .item:nth-of-type(2) {
+    position: absolute;
+    order: 1;
+  }
+
+  /* .Box{
+    margin-top: 650px;
+  } */
+  /* .MobileAppView{
+    position: absolute;
+    right: 0px;
+    top: -700px;
+} */
+.PlayStoreInfromation h3{
+    font-size: 18px;
+    font-weight: bold;
+}
+.PlayStoreInfromation p{
+    font-size: 14px;
+    margin: 20px 0;
+}
+.MobileAppImg{
+    width: 80% !important;
+}
+
+
+  
+}
+
+

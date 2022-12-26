@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li, i, h1,p,h3,h4,h5,h6,span, input, a {
+   padding: 0;
+   margin: 0;
+   list-style: none;
+   text-decoration: none;
+}
+
+.navbar{
+    background-color: whitesmoke;
+}
+
+.logo{
+    width: 150px;
+    height: 80px;
+}
+.topNav{
+    margin-bottom: 140px;
+    overflow: hidden;
+    width: 100%;
+    padding: 0px 10px;
+}
+/* .MobileAppImg img{
+    width: 100%;
+    width: 100%;
+    background-color: rgb(24, 14, 2);
+}
+
+.positionCenter{
+    background-image: url(../Assests//AppSectionImage/wp10915201.jpg);
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-top: 100px;
+    align-items: center;
+    background-repeat: no-repeat;
+}
+.position{
+    position: absolute;
+    width: 100%;
+    justify-content: center;
+    top: -30%;
+    align-items: center;
+}
+.MobileAppView,
+.appsDescription{
+    height: 500px;
+} */
