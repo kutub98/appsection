@@ -1,94 +1,59 @@
-@media screen and (min-width: 751px) and (max-width: 1050px) {
-    .Box{
+/* Media Queries */
+@media screen and (min-width: 768px) {
+    /* App */
   
-        /* align-items: center;
-        position: relative; */
-        /* margin-top: 300px; */
-        border: 3px solid black;
+    .app .AppsBox {
+      min-height: 314px;
     }
-    
-    
-    .PlayStoreInfromation h3{
-        font-size: 18px;
-        font-weight: bold;
+  
+    .app .caption {
+      display: block;
     }
-    .PlayStoreInfromation p{
-        font-size: 14px;
-        margin: 20px 0;
+  
+    .AppsBox .max-w-xl {
+      flex-direction: row-reverse;
     }
-    .MobileAppImg{
-        width: 80% !important;
+  
+    .AppsBox .content-container {
+      width: 55%;
+      text-align: left;
+      margin-right: auto;
+      justify-content: flex-start;
+      align-items: flex-start;
+      display: flex;
+      flex-direction: column;
     }
-    .MobileAppView{
-        display: block;
+  
+    .AppsBox .imageContainer {
+      width: 45%;
+      text-align: right;
+      max-height: 480px;
     }
-}
-
-@media screen and (min-width: 101px) and (max-width: 450px) {
-    .logo{
-        width: 200px;
-        height: 100px;
+  
+    .imageContainer img {
+      min-width: 500px;
     }
-  .item:nth-of-type(2) {
-    position: absolute;
-    order: 1;
+  
+    .content-container .sub-heading {
+      font-size: 1.8rem;
+    }
+  
+    .content-container .buttons-container {
+      margin-top: 1rem;
+    }
   }
-
-  /* .Box{
-    margin-top: 500px;
-  } */
-  /* .MobileAppView{
-    position: absolute;
-    right: 0px;
-    top: -400px;
-} */
-.PlayStoreInfromation h3{
-    font-size: 18px;
-    font-weight: bold;
-}
-.PlayStoreInfromation p{
-    font-size: 14px;
-    margin: 20px 0;
-}
-.MobileAppImg{
-    width: 80% !important;
-}
-
   
-}
-
-@media screen and (min-width: 451px) and (max-width: 750px) {
-    .logo{
-        width: 200px;
-        height: 100px;
+  @media screen and (min-width: 960px) {
+    /* App */
+    .app .AppsBox {
+      padding: 0 2rem;
     }
-  .item:nth-of-type(2) {
-    position: absolute;
-    order: 1;
-  }
-
-  /* .Box{
-    margin-top: 650px;
-  } */
-  /* .MobileAppView{
-    position: absolute;
-    right: 0px;
-    top: -700px;
-} */
-.PlayStoreInfromation h3{
-    font-size: 18px;
-    font-weight: bold;
-}
-.PlayStoreInfromation p{
-    font-size: 14px;
-    margin: 20px 0;
-}
-.MobileAppImg{
-    width: 80% !important;
-}
-
-
   
-}
-
-
+    .imageContainer img {
+      min-width: 600px;
+    }
+  
+    .content-container .buttons-container {
+      margin-top: 2rem;
+    }
+  }
